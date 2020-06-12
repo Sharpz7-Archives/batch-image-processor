@@ -2,8 +2,8 @@ version: 0.1
 
 scripts:
   run:
-    g++ -o ./internal/main ./src/main.c &&
-    ./internal/main
+    g++ -o ./internal/bimgproc ./src/main.c &&
+    ./internal/bimgproc
 
   debug: sudo apt-get install build-essential gdb
 

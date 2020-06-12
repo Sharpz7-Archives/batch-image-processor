@@ -1,0 +1,20 @@
+version: 2.1
+
+orbs:
+  release: sharptools/release@0.0.3
+  c: sharptools/c@0.0.1
+
+
+workflows:
+  workflow:
+    jobs:
+      - c/package:
+          appname: bimgproc
+
+      - release/github_job:
+          context: General
+          requires:
+            - c/package
+          filters:
+            branches:
+              only: master
