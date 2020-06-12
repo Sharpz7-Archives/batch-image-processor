@@ -2,7 +2,7 @@
 
 # Uninstall any previous versions.
 echo "Checking for any previous version..."
-sudo rm -r /usr/local/bin/ bimgproc
+sudo rm -r /usr/local/bin/bimgproc
 
 # Download and unpack
 wget https://github.com/Sharpz7/batch-image-processor/releases/download/XXXXX/linux.tar.gz
