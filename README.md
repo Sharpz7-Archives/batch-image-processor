@@ -1,7 +1,7 @@
 Batch Image Processor
 ============================================
 
-Convert your PNG images into
+Convert your PNG images into smaller, jpegs for use online
 
 Installation
 ===========
