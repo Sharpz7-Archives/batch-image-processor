@@ -1,8 +1,7 @@
 [![CircleCI](https://circleci.com/gh/Sharpz7/batch-image-processor/tree/master.svg?style=svg)](https://circleci.com/gh/Sharpz7/batch-image-processor/tree/master)
 
 # Batch Image Processor
-
-Convert your PNG images into small jpegs for use on the internet.
+Convert your PNG images into smaller, jpegs for use online
 
 # Installation
 On linux, just run:
